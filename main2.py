@@ -1,0 +1,12 @@
+math=int(input("math:"))
+english=int(input("english:"))
+kiswahili=int(input("kiswahili:"))
+biology=int(input("biology:"))
+chemistry=int(input("chemistry:"))
+CRE=int(input("CRE:"))
+history=int(input("history:"))
+art=int(input("art:"))
+sum=math+english+kiswahili+biology+chemistry+CRE+history+art
+print("the sum of the above marks are",sum)
+average=(sum/8)
+print("the average of the students marks is",average)
